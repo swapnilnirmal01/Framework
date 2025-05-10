@@ -9,7 +9,7 @@ public class LoginTestCRM extends BaseClass{
 	@Test
 	public void loginapp() throws InterruptedException {
 		
-		logger=extentreport.createTest("Login to CRM");
+		//logger=extentreport.createTest("Login to CRM");
 		logger=extentreport.createTest("Login To CRM").assignAuthor("swapnil").
 				assignCategory("functional testing");
 		logger.info("Test Login to CRM");
